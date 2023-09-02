@@ -1,8 +1,10 @@
-programa{
+programa
+{
+	
 	funcao inicio()
 	{
-		escreva("Olá mundo, primeiro programa\n")
-		escreva("projeto vó tutu e Ubuntu")
+		escreva("Olá Mundo, primeiro programa\n")
+		escreva("projeto Vó Tutu e Ubuntu")
 	}
 }
 
@@ -11,7 +13,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 117; 
+ * @POSICAO-CURSOR = 120; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

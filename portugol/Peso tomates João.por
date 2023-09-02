@@ -1,31 +1,39 @@
-programa
-{
-	inclua biblioteca Matematica
-	
+programa {
 	funcao inicio()
 	{
-		inteiro A,B,C
-		real D,R,S
+		//VARIAVEIS
+		inteiro P = 0
+		real M = 0.00
+		inteiro E = 0
+		const inteiro LIMITE = 50
+		const real MULTA = 4.00
 
-		escreva("Digite o numero A : ")
-		leia(A)
-		escreva("Digite o numero B : ")
-		leia(B)
-		escreva("Digite o numero C : ")
-		leia(C)
+		//ENTRADAS
+		escreva ("Peso dos tomates")
+		leia (P)
 
-		R = Matematica.potencia((A+B),2.00)
-		S = Matematica.potencia((B+C),2.00)
-		D = (R+S)/2
-		escreva("o valor final é ",D)
+		//PROCESSAMENTO
+		se (P>LIMITE){
+			E = P - LIMITE
+			M = E * MULTA
+		}
+
+		//SAIDAS
+		escreva("PESO DOS TOMATES : ",P)
+		escreva("\nEXCESSO    : ",E)
+		escreva("\nMULTA     :",M)
+		
+
+		
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 358; 
+ * @POSICAO-CURSOR = 397; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,32 +1,29 @@
-programa{
+programa
+{
+	inclua biblioteca Matematica
+	
 	funcao inicio()
 	{
-		real anos
-		real mes
-		real dia
-		real totalDias
+	inteiro totalDias, anos, meses, dias
+		escreva("informe o numero de anos : ")
+		leia(anos)
+		escreva("informe o numero de meses : ")
+		leia(meses)
+		escreva("informe o numero de dias : ")
+		leia(dias)
 
-		escreva ("quantos anos voce possui : ")
-		leia (anos)
-		escreva ("Qual mes atual : ")
-		leia (mes)
-		escreva ("qual dia hoje : ")
-		leia (dia)
-
-		totalDias = (anos*365)+(mes*30)+dia
+		totalDias = (anos*365)+(meses*30)+dias
 
 		escreva("Total de dias é ",totalDias)
-			
 		
-		}
+	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 320; 
+ * @POSICAO-CURSOR = 352; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,24 +1,25 @@
-programa{
-	funcao inicio(){
+programa
+{
+	
+	funcao inicio()
+	{
 		inteiro numero1,numero2
-		inteiro multiplicacao 
-		escreva("numero1 : ")
+		inteiro soma
+
+		escreva("Digite o numero 1 : ")
 		leia(numero1)
-		escreva("numero2 : ")
+		escreva("Digite o numero 2 : ")
 		leia(numero2)
-		multiplicacao = numero1 * numero2
-		escreva ("a multiplicação dos dois numeros é : ", multiplicacao)
-		
-		
+		soma = numero1 + numero2
+		escreva("A soma dos dois numeros é ",soma)
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 251; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
